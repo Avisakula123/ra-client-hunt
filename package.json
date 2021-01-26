@@ -1,0 +1,20 @@
+{
+    "name": "ra-client-hunt",
+    "version": "1.0.0",
+    "description": "client side app",
+    "main": "index.html",
+    "scripts": {
+        "start": "index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Avisakula123/ra-client-hunt.git"
+    },
+    "author": "Rohith Avisakula",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Avisakula123/ra-client-hunt/issues"
+    },
+    "homepage": "https://github.com/Avisakula123/ra-client-hunt#readme"
+  }

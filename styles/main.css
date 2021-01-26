@@ -1,0 +1,28 @@
+article{
+    /* background-color: lightgrey; */
+    /* width: 300px;
+    border: 15px solid green;
+    padding: 50px; */
+    margin-left: 120px;
+    text-align: center;
+  }
+
+#error-message{
+    color:brown;
+    font-style:italic;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#device-lat{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#device-long{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#location{
+    font-size: 25px;
+}
