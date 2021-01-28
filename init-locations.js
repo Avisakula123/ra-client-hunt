@@ -1,5 +1,3 @@
-// export default object with the initialization data
-
 export default [
       
     {
