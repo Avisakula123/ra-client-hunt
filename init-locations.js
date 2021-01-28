@@ -2,8 +2,8 @@ export default [
       
     {
         Name: 'Horizons Apt ',
-        Latitude: 40.3589695, 
-        Longitude: -94.8831951,
+        // Latitude: 40.3589695, 
+        // Longitude: -94.8831951,
         // North: 40.3589695,
         // West: -94.8831951,
        //   South: 40.3589695,
