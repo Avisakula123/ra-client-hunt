@@ -56,7 +56,7 @@ async function locationHandler() {
 }
 
 
-//checking if distance is in 10m range.
+//checking if distance is in 40m range.
 
 
 function isInside(questLat, questLon) {
