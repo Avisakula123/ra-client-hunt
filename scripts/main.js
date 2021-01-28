@@ -1,9 +1,5 @@
 import locationsArray from '../init-locations.js';
 
-// helper functions....................
-
-
-// event handlers......................
 
 
 let locationElement = document.getElementById("location");
@@ -29,8 +25,7 @@ async function getLocation() {
     });
 }
 
-//the locationHandler() function checksout the current location and compares it with the 
-//init-locations.
+
 
 async function locationHandler() {
     let locText = await getLocation();
@@ -46,7 +41,7 @@ async function locationHandler() {
         }
     });
 
-    // In case of any error where if the device is not 30m range it displays error.
+   
 
     if(error) {
         document.getElementById("error-message").innerHTML = "You're not in the radius range.";
@@ -56,7 +51,7 @@ async function locationHandler() {
 }
 
 
-//checking if distance is in 40m range.
+
 
 
 function isInside(questLat, questLon) {
@@ -69,7 +64,7 @@ function isInside(questLat, questLon) {
     }
 }
 
-//distance between the lat-long points.
+
 function distanceBetweenLocations(questLat, questLon) {
     const R = 6371e3;
     const φ1 = currentlat * Math.PI / 180;
